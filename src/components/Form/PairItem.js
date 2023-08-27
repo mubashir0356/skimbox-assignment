@@ -12,11 +12,6 @@ const PairItem = props => {
     selectedPair,
   } = props
 
-  //   const onChangePair = () => {
-  //     console.log(event.target.id)
-  //     onClickHandler(event.target.value)
-  //   }
-
   return (
     <>
       <input
@@ -40,3 +35,5 @@ const PairItem = props => {
 }
 
 export default PairItem
+
+// We can use this component by passing the suitable props in order to avoid code duplication.
